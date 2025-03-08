@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8%;
+    justify-self: center;
+    background-color: #111;
+}
+/*FontGoogle class*/
+.apple-regular{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 40
+}
+/*Cores predominantes*/
+  .white{
+    color: white;
+  }
+  .green{
+    color: #75FB4C;
+  }
+  /*:::::::::::::::::::::::::::::::::::::::::::::::::*/
+.border{
+    border: 2px solid #75FB4C   ;
+    border-radius: 8px;
+}
+.clock {
+    font-size: 4em;
+    margin: 40px;
+    cursor: pointer;
+}
